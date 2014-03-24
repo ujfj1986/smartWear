@@ -101,7 +101,7 @@ int main(int argc, char **argv)
 
 	int s = cvWaitKey(0);
 	char* filename = NULL;
-	if (s == 's') {
+	if (s == 0x100073) {
 		if (c == 0x100078) {
 			filename = "xor.jpg";
 		} else if (c == 0x10006f) {
